@@ -1,7 +1,6 @@
 package Hyunjun.hellospring.repository;
 
 import Hyunjun.hellospring.domain.Member;
-import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
