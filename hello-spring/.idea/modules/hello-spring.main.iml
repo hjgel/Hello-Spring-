@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id="hello-spring:main" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="Hyunjun" external.system.module.type="sourceSet" external.system.module.version="0.0.1-SNAPSHOT" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
-    <facet external-system-id="GRADLE" type="web" name="Web">
+    <facet type="web" name="Web">
       <configuration>
         <webroots />
       </configuration>
@@ -18,12 +18,15 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-thymeleaf:3.2.4" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-web:3.2.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-jdbc:3.2.4" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter:3.2.4" level="project" />
     <orderEntry type="library" name="Gradle: org.thymeleaf:thymeleaf-spring6:3.1.2.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-json:3.2.4" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-tomcat:3.2.4" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-webmvc:6.1.5" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-web:6.1.5" level="project" />
+    <orderEntry type="library" name="Gradle: com.zaxxer:HikariCP:5.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-jdbc:6.1.5" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-autoconfigure:3.2.4" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot:3.2.4" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-logging:3.2.4" level="project" />
@@ -44,6 +47,7 @@
     <orderEntry type="library" name="Gradle: org.springframework:spring-beans:6.1.5" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-expression:6.1.5" level="project" />
     <orderEntry type="library" name="Gradle: io.micrometer:micrometer-observation:1.12.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-tx:6.1.5" level="project" />
     <orderEntry type="library" name="Gradle: ch.qos.logback:logback-classic:1.4.14" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-to-slf4j:2.21.1" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:jul-to-slf4j:2.0.12" level="project" />
@@ -55,5 +59,6 @@
     <orderEntry type="library" name="Gradle: io.micrometer:micrometer-commons:1.12.4" level="project" />
     <orderEntry type="library" name="Gradle: ch.qos.logback:logback-core:1.4.14" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-api:2.21.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.h2database:h2:2.2.224" level="project" />
   </component>
 </module>
